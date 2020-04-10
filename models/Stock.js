@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const categorySchema = new mongoose.Schema({
+const stockSchema = new mongoose.Schema({
   name: {
     type: String,
     trim: true,
@@ -15,4 +15,4 @@ const categorySchema = new mongoose.Schema({
 
 
 
-module.exports = model('Category', categorySchema);
+module.exports = model('Stock', stockSchema);
